@@ -1,0 +1,2814 @@
+[
+    {
+        "name": "일식점",
+        "latitude": 37.50189975738262,
+        "longitude": 126.88008209417681,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49034076784343,
+        "longitude": 126.89398100185272,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.50480143656561,
+        "longitude": 126.88951171241925,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50762853256494,
+        "longitude": 126.88379470231045,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "제과점",
+        "latitude": 37.50030910367435,
+        "longitude": 126.86764398143632,
+        "categoryPath": "휴게음식점 > 제과점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "제과점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.4771055739053,
+        "longitude": 126.81731122704001,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.501451831417704,
+        "longitude": 126.87628450729177,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.486232967291386,
+        "longitude": 126.89521007693047,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.50106423658321,
+        "longitude": 126.8518384769009,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50747552324426,
+        "longitude": 126.89007245449723,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49019515674564,
+        "longitude": 126.88227224272349,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.496109948996704,
+        "longitude": 126.84625126433541,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.49190440475191,
+        "longitude": 126.85392352672983,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.50995148081683,
+        "longitude": 126.8787325041282,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.491942767278104,
+        "longitude": 126.84188971182893,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50541362793194,
+        "longitude": 126.8578024539565,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50244083371521,
+        "longitude": 126.88808089031224,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49606794229337,
+        "longitude": 126.84625517016642,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.485143969615706,
+        "longitude": 126.89484240464503,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.4794640985231,
+        "longitude": 126.89025488274332,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.49477325102651,
+        "longitude": 126.85863369793317,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.483600008159705,
+        "longitude": 126.89880204190169,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.494170223569974,
+        "longitude": 126.88271452691224,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.486337739560106,
+        "longitude": 126.83907391880928,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.49729434996649,
+        "longitude": 126.89235750561333,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.492529843063785,
+        "longitude": 126.88771804513023,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.49158014024236,
+        "longitude": 126.85685659839521,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.50777998395786,
+        "longitude": 126.89049724394003,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486979890599564,
+        "longitude": 126.89072010869513,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.50728266780737,
+        "longitude": 126.8906110639249,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50150285332773,
+        "longitude": 126.84624346452922,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.50351885571814,
+        "longitude": 126.86338678063254,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.504399391797406,
+        "longitude": 126.88789194697604,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.495889575349224,
+        "longitude": 126.84339306381432,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.4881489508072,
+        "longitude": 126.894505096341,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.493239201301975,
+        "longitude": 126.84440612688634,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48807351682108,
+        "longitude": 126.83051058608432,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.484424815651316,
+        "longitude": 126.8964413936875,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.4954835157859,
+        "longitude": 126.846157226376,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.487469671843286,
+        "longitude": 126.85504021075901,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.505906775134,
+        "longitude": 126.87615318699916,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.49344775958988,
+        "longitude": 126.82493327724121,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50272441829941,
+        "longitude": 126.85210051224088,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.50146921418766,
+        "longitude": 126.8663311808509,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50550237028023,
+        "longitude": 126.85889759993509,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.4979794275626,
+        "longitude": 126.88374793567941,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "실내포차",
+        "latitude": 37.494356704269116,
+        "longitude": 126.85968057773759,
+        "categoryPath": "주류점 > 실내포차",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "실내포차"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.49204496403296,
+        "longitude": 126.85461051311191,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.50218774726934,
+        "longitude": 126.85651432762684,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.490953190735844,
+        "longitude": 126.89433521213775,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.497089518349775,
+        "longitude": 126.88999185015037,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.50728266780737,
+        "longitude": 126.8906110639249,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.49729434996649,
+        "longitude": 126.89235750561333,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49737592864784,
+        "longitude": 126.88150368030914,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.4864727396951,
+        "longitude": 126.83781125250789,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.493153770852466,
+        "longitude": 126.84477927119396,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.496502848842745,
+        "longitude": 126.87284809612095,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.488007990627835,
+        "longitude": 126.88475346629983,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48305214214518,
+        "longitude": 126.89434331488123,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.49933152513108,
+        "longitude": 126.88721657699459,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.503903884775724,
+        "longitude": 126.89078911960581,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50008514440713,
+        "longitude": 126.86555098808671,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.485547468173515,
+        "longitude": 126.88658431717457,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.488282367021874,
+        "longitude": 126.88844735710094,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.49519521703164,
+        "longitude": 126.83998859848495,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.495373291816776,
+        "longitude": 126.89367625551085,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.492529843063785,
+        "longitude": 126.88771804513023,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "패스트푸드",
+        "latitude": 37.49977942638295,
+        "longitude": 126.8909148999233,
+        "categoryPath": "휴게음식점 > 패스트푸드",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "패스트푸드"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50378817385742,
+        "longitude": 126.89045057284139,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50240863298219,
+        "longitude": 126.87730118388308,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.492788847742624,
+        "longitude": 126.88221267456883,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.49190440475191,
+        "longitude": 126.85392352672983,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49213163675966,
+        "longitude": 126.82264617675473,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.501162528659435,
+        "longitude": 126.86420949717599,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.487505105324225,
+        "longitude": 126.89301841702888,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.496109948996704,
+        "longitude": 126.84625126433541,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.48054504463342,
+        "longitude": 126.88957719396208,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486446578163076,
+        "longitude": 126.89269737157387,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.510326792585985,
+        "longitude": 126.88958927319996,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "제과점",
+        "latitude": 37.50250822890825,
+        "longitude": 126.85161503862695,
+        "categoryPath": "휴게음식점 > 제과점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "제과점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49315618682307,
+        "longitude": 126.83457856359269,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.5105031669194,
+        "longitude": 126.88879280367503,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.50183648515493,
+        "longitude": 126.8630083334939,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.50252451676333,
+        "longitude": 126.87871830536831,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50965533984734,
+        "longitude": 126.87890667837425,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488748107999704,
+        "longitude": 126.85551610059073,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.4771055739053,
+        "longitude": 126.81731122704001,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488083191009274,
+        "longitude": 126.889503290669,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.4887203451365,
+        "longitude": 126.8918855685537,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.493823328490336,
+        "longitude": 126.88762173715365,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.484620812161204,
+        "longitude": 126.90041342856283,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49019515674564,
+        "longitude": 126.88227224272349,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.48358849022396,
+        "longitude": 126.89083929945646,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.503229150014775,
+        "longitude": 126.86307610930115,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.49344775958988,
+        "longitude": 126.82493327724121,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.502264144391084,
+        "longitude": 126.84701518673499,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "실내포차",
+        "latitude": 37.49381158508858,
+        "longitude": 126.8438119652063,
+        "categoryPath": "주류점 > 실내포차",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "실내포차"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49107219230341,
+        "longitude": 126.85617257282857,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50380173042734,
+        "longitude": 126.8904719032537,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.499389975887205,
+        "longitude": 126.8537070113153,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.488007990627835,
+        "longitude": 126.88475346629983,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50411558732645,
+        "longitude": 126.88721705047021,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.501452806292,
+        "longitude": 126.84249278985898,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48524937046742,
+        "longitude": 126.89442248129046,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.493173293624075,
+        "longitude": 126.84301979531962,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50150285332773,
+        "longitude": 126.84624346452922,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.4794640985231,
+        "longitude": 126.89025488274332,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.501485613967496,
+        "longitude": 126.84663854906168,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48985695873257,
+        "longitude": 126.85680546631644,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.487469671843286,
+        "longitude": 126.85504021075901,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.488032592497596,
+        "longitude": 126.88504184851797,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50349192610329,
+        "longitude": 126.8868033975909,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49034076784343,
+        "longitude": 126.89398100185272,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49178471016432,
+        "longitude": 126.84046670912966,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488748107999704,
+        "longitude": 126.85551610059073,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "떡볶이/튀김",
+        "latitude": 37.497350488536085,
+        "longitude": 126.82242159005824,
+        "categoryPath": "휴게음식점 > 떡볶이/튀김",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "떡볶이/튀김"
+    },
+    {
+        "name": "제과점",
+        "latitude": 37.50030910367435,
+        "longitude": 126.86764398143632,
+        "categoryPath": "휴게음식점 > 제과점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "제과점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.4856318002366,
+        "longitude": 126.89498224837563,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50705849743517,
+        "longitude": 126.89104831798122,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48553783746025,
+        "longitude": 126.89617308636255,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49943138740139,
+        "longitude": 126.88180474832042,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.485547468173515,
+        "longitude": 126.88658431717457,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "실내포차",
+        "latitude": 37.491557778776595,
+        "longitude": 126.8226133514545,
+        "categoryPath": "주류점 > 실내포차",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "실내포차"
+    },
+    {
+        "name": "꼬치구이",
+        "latitude": 37.49718241807503,
+        "longitude": 126.8825235611806,
+        "categoryPath": "주류점 > 꼬치구이",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "꼬치구이"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.48753962277605,
+        "longitude": 126.83978831117089,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.49158014024236,
+        "longitude": 126.85685659839521,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50131580712704,
+        "longitude": 126.8867099018483,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486979890599564,
+        "longitude": 126.89072010869513,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49050657627301,
+        "longitude": 126.88426889688706,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.495373291816776,
+        "longitude": 126.89367625551085,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.486232967291386,
+        "longitude": 126.89521007693047,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.49128758816066,
+        "longitude": 126.88890107932748,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.484139249452056,
+        "longitude": 126.90084063215173,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50251886116238,
+        "longitude": 126.85011067057678,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.501957349299374,
+        "longitude": 126.84390298828045,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.499389975887205,
+        "longitude": 126.8537070113153,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "생선회/해물",
+        "latitude": 37.482471051838935,
+        "longitude": 126.90073648146121,
+        "categoryPath": "일반음식점 > 생선회/해물",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "생선회/해물"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.5045990640433,
+        "longitude": 126.8634052510949,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49070966209415,
+        "longitude": 126.84235425767605,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48807351682108,
+        "longitude": 126.83051058608432,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.495373291816776,
+        "longitude": 126.89367625551085,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.495373291816776,
+        "longitude": 126.89367625551085,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.48619906758673,
+        "longitude": 126.89814477197407,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49156918217865,
+        "longitude": 126.88382005919647,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.497147815969626,
+        "longitude": 126.88348072068482,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49371744940575,
+        "longitude": 126.88771126103477,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.49162052676445,
+        "longitude": 126.82170404799894,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48736613175827,
+        "longitude": 126.88875914348738,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50965533984734,
+        "longitude": 126.87890667837425,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.479695007455945,
+        "longitude": 126.82313442269177,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.496614901060084,
+        "longitude": 126.82980230900093,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.492685132368145,
+        "longitude": 126.84365665854196,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.49128758816066,
+        "longitude": 126.88890107932748,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50115783536183,
+        "longitude": 126.86695797685299,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50705849743517,
+        "longitude": 126.89104831798122,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50440120404784,
+        "longitude": 126.8913288597759,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "꼬치구이",
+        "latitude": 37.49718241807503,
+        "longitude": 126.8825235611806,
+        "categoryPath": "주류점 > 꼬치구이",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "꼬치구이"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.50106423658321,
+        "longitude": 126.8518384769009,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "생선회/해물",
+        "latitude": 37.4832118850756,
+        "longitude": 126.8911576069221,
+        "categoryPath": "일반음식점 > 생선회/해물",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "생선회/해물"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.50252451676333,
+        "longitude": 126.87871830536831,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "생선회/해물",
+        "latitude": 37.498439702521274,
+        "longitude": 126.89184573581277,
+        "categoryPath": "일반음식점 > 생선회/해물",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "생선회/해물"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50008514440713,
+        "longitude": 126.86555098808671,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49366837734997,
+        "longitude": 126.88822277756307,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.498421401901304,
+        "longitude": 126.85415367618074,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.5008525403713,
+        "longitude": 126.86651551265511,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.502264144391084,
+        "longitude": 126.84701518673499,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49356255054794,
+        "longitude": 126.88238170938743,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.493307576068105,
+        "longitude": 126.83913920152878,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49178471016432,
+        "longitude": 126.84046670912966,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "떡볶이/튀김",
+        "latitude": 37.496919522845694,
+        "longitude": 126.88813128614397,
+        "categoryPath": "휴게음식점 > 떡볶이/튀김",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "떡볶이/튀김"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.500477053433926,
+        "longitude": 126.86683394470967,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.48534958595691,
+        "longitude": 126.87604319099373,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.486232967291386,
+        "longitude": 126.89521007693047,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486446578163076,
+        "longitude": 126.89269737157387,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.49519521703164,
+        "longitude": 126.83998859848495,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.479313534595434,
+        "longitude": 126.82302004350353,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48524937046742,
+        "longitude": 126.89442248129046,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.486337739560106,
+        "longitude": 126.83907391880928,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.487469671843286,
+        "longitude": 126.85504021075901,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49006730375109,
+        "longitude": 126.85651052465306,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49107219230341,
+        "longitude": 126.85617257282857,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49050657627301,
+        "longitude": 126.88426889688706,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.496109948996704,
+        "longitude": 126.84625126433541,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.48156583292966,
+        "longitude": 126.89172668364003,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488748107999704,
+        "longitude": 126.85551610059073,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49943138740139,
+        "longitude": 126.88180474832042,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.481214572605985,
+        "longitude": 126.82450498657809,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49505032352313,
+        "longitude": 126.83068350754198,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.484620812161204,
+        "longitude": 126.90041342856283,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.494170223569974,
+        "longitude": 126.88271452691224,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.501452806292,
+        "longitude": 126.84249278985898,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49802179269417,
+        "longitude": 126.84769209503901,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486979890599564,
+        "longitude": 126.89072010869513,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.479313534595434,
+        "longitude": 126.82302004350353,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50333107863631,
+        "longitude": 126.89114330052833,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.48736613175827,
+        "longitude": 126.88875914348738,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488083191009274,
+        "longitude": 126.889503290669,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "생선회/해물",
+        "latitude": 37.492456972275725,
+        "longitude": 126.85966879027386,
+        "categoryPath": "일반음식점 > 생선회/해물",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "생선회/해물"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.494170223569974,
+        "longitude": 126.88271452691224,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.499389975887205,
+        "longitude": 126.8537070113153,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50402781688515,
+        "longitude": 126.89134248023393,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49530263844095,
+        "longitude": 126.88321915864202,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.488282367021874,
+        "longitude": 126.88844735710094,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.50252451676333,
+        "longitude": 126.87871830536831,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "생선회/해물",
+        "latitude": 37.4832118850756,
+        "longitude": 126.8911576069221,
+        "categoryPath": "일반음식점 > 생선회/해물",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "생선회/해물"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.495889575349224,
+        "longitude": 126.84339306381432,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "떡볶이/튀김",
+        "latitude": 37.497350488536085,
+        "longitude": 126.82242159005824,
+        "categoryPath": "휴게음식점 > 떡볶이/튀김",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "떡볶이/튀김"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.49384574138572,
+        "longitude": 126.85750043803864,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "돈까스/우동",
+        "latitude": 37.49158014024236,
+        "longitude": 126.85685659839521,
+        "categoryPath": "일반음식점 > 돈까스/우동",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "돈까스/우동"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.4794640985231,
+        "longitude": 126.89025488274332,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.50449946561232,
+        "longitude": 126.86305821331813,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.501162528659435,
+        "longitude": 126.86420949717599,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.501452806292,
+        "longitude": 126.84249278985898,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.49867591628345,
+        "longitude": 126.82946162214222,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.488007990627835,
+        "longitude": 126.88475346629983,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.493098119278365,
+        "longitude": 126.84249191154596,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.493307576068105,
+        "longitude": 126.83913920152878,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.49613193074217,
+        "longitude": 126.85888780882713,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.4771055739053,
+        "longitude": 126.81731122704001,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.49343557287265,
+        "longitude": 126.85941645437691,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.485143969615706,
+        "longitude": 126.89484240464503,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.48054504463342,
+        "longitude": 126.88957719396208,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "분식점",
+        "latitude": 37.48244493661707,
+        "longitude": 126.89764082957596,
+        "categoryPath": "일반음식점 > 분식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "분식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.48156583292966,
+        "longitude": 126.89172668364003,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.483023482313506,
+        "longitude": 126.8961982326384,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "피자점",
+        "latitude": 37.50218774726934,
+        "longitude": 126.85651432762684,
+        "categoryPath": "휴게음식점 > 피자점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "피자점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49315618682307,
+        "longitude": 126.83457856359269,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.50231004249677,
+        "longitude": 126.8641298303713,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타주점",
+        "latitude": 37.49582389775775,
+        "longitude": 126.8439638505552,
+        "categoryPath": "주류점 > 기타주점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "기타주점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.49104867245687,
+        "longitude": 126.8539054601721,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "치킨점",
+        "latitude": 37.495373291816776,
+        "longitude": 126.89367625551085,
+        "categoryPath": "휴게음식점 > 치킨점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "치킨점"
+    },
+    {
+        "name": "떡볶이/튀김",
+        "latitude": 37.494782281091425,
+        "longitude": 126.88978525542412,
+        "categoryPath": "휴게음식점 > 떡볶이/튀김",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "떡볶이/튀김"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50297219685657,
+        "longitude": 126.88187090166574,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486979890599564,
+        "longitude": 126.89072010869513,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.49178471016432,
+        "longitude": 126.84046670912966,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.49952824818402,
+        "longitude": 126.89004316959327,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.490347241483434,
+        "longitude": 126.89283307781832,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.49401263613154,
+        "longitude": 126.85885402667921,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.487020924226485,
+        "longitude": 126.89551057834805,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.50705849743517,
+        "longitude": 126.89104831798122,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.49586322793797,
+        "longitude": 126.88902134775728,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.488930303283595,
+        "longitude": 126.88496291193447,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "한식점",
+        "latitude": 37.5045990640433,
+        "longitude": 126.8634052510949,
+        "categoryPath": "일반음식점 > 한식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "한식점"
+    },
+    {
+        "name": "고깃집",
+        "latitude": 37.50297219685657,
+        "longitude": 126.88187090166574,
+        "categoryPath": "일반음식점 > 고깃집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "고깃집"
+    },
+    {
+        "name": "떡볶이/튀김",
+        "latitude": 37.496919522845694,
+        "longitude": 126.88813128614397,
+        "categoryPath": "휴게음식점 > 떡볶이/튀김",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "떡볶이/튀김"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.479695007455945,
+        "longitude": 126.82313442269177,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "중국집",
+        "latitude": 37.50233042385829,
+        "longitude": 126.85926320227435,
+        "categoryPath": "일반음식점 > 중국집",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "중국집"
+    },
+    {
+        "name": "맥주호프점",
+        "latitude": 37.5008525403713,
+        "longitude": 126.86651551265511,
+        "categoryPath": "주류점 > 맥주호프점",
+        "categoryGroupName": "술집",
+        "categoryDetailName": "맥주호프점"
+    },
+    {
+        "name": "기타음식점",
+        "latitude": 37.489203676541614,
+        "longitude": 126.89042991536567,
+        "categoryPath": "일반음식점 > 기타음식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타음식점"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.508306995862526,
+        "longitude": 126.87800786359804,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "커피점/카페",
+        "latitude": 37.495302474751625,
+        "longitude": 126.84278233206817,
+        "categoryPath": "휴게음식점 > 커피점/카페",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "커피점/카페"
+    },
+    {
+        "name": "기타휴게점",
+        "latitude": 37.502264144391084,
+        "longitude": 126.84701518673499,
+        "categoryPath": "휴게음식점 > 기타휴게점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "기타휴게점"
+    },
+    {
+        "name": "일식점",
+        "latitude": 37.486979890599564,
+        "longitude": 126.89072010869513,
+        "categoryPath": "일반음식점 > 일식점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "일식점"
+    },
+    {
+        "name": "제과점",
+        "latitude": 37.5064855787,
+        "longitude": 126.8451760129,
+        "categoryPath": "휴게음식점 > 제과점",
+        "categoryGroupName": "음식점",
+        "categoryDetailName": "제과점"
+    },
+    {
+        "id": "2074600451",
+        "name": "스미다",
+        "categoryPath": "음식점 > 카페",
+        "categoryDetailName": "카페",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 298",
+        "phoneNumber": "070-4633-2525",
+        "url": "http://place.map.kakao.com/2074600451",
+        "latitude": 37.481712758370264,
+        "longitude": 126.8839983532257,
+        "distance": null
+    },
+    {
+        "id": "1536002539",
+        "name": "이미커피로스터스",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로27길 116",
+        "phoneNumber": "070-4240-5228",
+        "url": "http://place.map.kakao.com/1536002539",
+        "latitude": 37.48490267068413,
+        "longitude": 126.88809096229971,
+        "distance": null
+    },
+    {
+        "id": "26310921",
+        "name": "설빙 구로지밸리점",
+        "categoryPath": "음식점 > 카페 > 테마카페 > 디저트카페 > 설빙",
+        "categoryDetailName": "테마카페",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로 300",
+        "phoneNumber": "02-6344-3959",
+        "url": "http://place.map.kakao.com/26310921",
+        "latitude": 37.4849822729313,
+        "longitude": 126.896335683994,
+        "distance": null
+    },
+    {
+        "id": "8403565",
+        "name": "스타벅스 가산디지털점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 168",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/8403565",
+        "latitude": 37.48001465912096,
+        "longitude": 126.8824803289091,
+        "distance": null
+    },
+    {
+        "id": "1653669621",
+        "name": "스타벅스 구로디지털타워점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로32길 30",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/1653669621",
+        "latitude": 37.483630865471,
+        "longitude": 126.896455138658,
+        "distance": null
+    },
+    {
+        "id": "21058537",
+        "name": "스타벅스 구로디지털로점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로33길 11",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/21058537",
+        "latitude": 37.4857746895213,
+        "longitude": 126.895800907536,
+        "distance": null
+    },
+    {
+        "id": "1460458769",
+        "name": "스타벅스 가산디지털단지역점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 298",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/1460458769",
+        "latitude": 37.4813375391088,
+        "longitude": 126.883591912152,
+        "distance": null
+    },
+    {
+        "id": "27179470",
+        "name": "502커피로스터스",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 159-20",
+        "phoneNumber": "070-4128-4289",
+        "url": "http://place.map.kakao.com/27179470",
+        "latitude": 37.4799325844446,
+        "longitude": 126.880600281143,
+        "distance": null
+    },
+    {
+        "id": "8567520",
+        "name": "투썸플레이스 가산디지털점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 투썸플레이스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 186",
+        "phoneNumber": "02-866-9308",
+        "url": "http://place.map.kakao.com/8567520",
+        "latitude": 37.48152413149771,
+        "longitude": 126.88186064793325,
+        "distance": null
+    },
+    {
+        "id": "623379440",
+        "name": "퐁퐁플라워 가산센터",
+        "categoryPath": "음식점 > 카페 > 테마카페 > 키즈카페",
+        "categoryDetailName": "테마카페",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 278",
+        "phoneNumber": "02-444-2080",
+        "url": "http://place.map.kakao.com/623379440",
+        "latitude": 37.4794932964046,
+        "longitude": 126.884634912659,
+        "distance": null
+    },
+    {
+        "id": "1652547690",
+        "name": "인크커피 가산 플래그십 스토어",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털2로 127-20",
+        "phoneNumber": "02-854-7200",
+        "url": "http://place.map.kakao.com/1652547690",
+        "latitude": 37.4793398430456,
+        "longitude": 126.878073238144,
+        "distance": null
+    },
+    {
+        "id": "1146328973",
+        "name": "스타벅스 가산에스케이점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 171",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/1146328973",
+        "latitude": 37.48099246555179,
+        "longitude": 126.88089255303531,
+        "distance": null
+    },
+    {
+        "id": "7961406",
+        "name": "스타벅스 구로에이스점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로 285",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/7961406",
+        "latitude": 37.4842382622588,
+        "longitude": 126.894550272167,
+        "distance": null
+    },
+    {
+        "id": "13049542",
+        "name": "스타벅스 가산그레이트점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 디지털로9길 32",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/13049542",
+        "latitude": 37.479438327682,
+        "longitude": 126.887429804982,
+        "distance": null
+    },
+    {
+        "id": "20375726",
+        "name": "커피베이 가산직영점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 커피베이",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 254",
+        "phoneNumber": "02-859-1157",
+        "url": "http://place.map.kakao.com/20375726",
+        "latitude": 37.4775152035498,
+        "longitude": 126.885171576287,
+        "distance": null
+    },
+    {
+        "id": "26376546",
+        "name": "스타벅스 가산브이타워점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 128",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/26376546",
+        "latitude": 37.4769946609385,
+        "longitude": 126.883576037768,
+        "distance": null
+    },
+    {
+        "id": "963590299",
+        "name": "잉크커피",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로30길 28",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/963590299",
+        "latitude": 37.4821080278851,
+        "longitude": 126.895281389104,
+        "distance": null
+    },
+    {
+        "id": "900274800",
+        "name": "C27 현대시티아울렛 가산점",
+        "categoryPath": "음식점 > 카페 > 테마카페 > 디저트카페",
+        "categoryDetailName": "테마카페",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 디지털로10길 9",
+        "phoneNumber": "02-2136-9780",
+        "url": "http://place.map.kakao.com/900274800",
+        "latitude": 37.4776415410424,
+        "longitude": 126.889150949351,
+        "distance": null
+    },
+    {
+        "id": "26887407",
+        "name": "할리스 가산디지털단지점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 할리스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 186",
+        "phoneNumber": "02-2028-7111",
+        "url": "http://place.map.kakao.com/26887407",
+        "latitude": 37.4814256172394,
+        "longitude": 126.881556667445,
+        "distance": null
+    },
+    {
+        "id": "1461073772",
+        "name": "트리니티블랙",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털2로 108",
+        "phoneNumber": "02-2626-8989",
+        "url": "http://place.map.kakao.com/1461073772",
+        "latitude": 37.4777056363827,
+        "longitude": 126.880942992184,
+        "distance": null
+    },
+    {
+        "id": "2081698743",
+        "name": "우주라이크커피 가산디지털단지점",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산로9길 12-8",
+        "phoneNumber": "02-6278-0077",
+        "url": "http://place.map.kakao.com/2081698743",
+        "latitude": 37.477226125323,
+        "longitude": 126.891033932687,
+        "distance": null
+    },
+    {
+        "id": "418082712",
+        "name": "메가커피 구로디지털단지역점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 메가커피",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로31길 41",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/418082712",
+        "latitude": 37.4852855904064,
+        "longitude": 126.892943243258,
+        "distance": null
+    },
+    {
+        "id": "18363987",
+        "name": "스타벅스 마리오아울렛점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 266",
+        "phoneNumber": "1522-3232",
+        "url": "http://place.map.kakao.com/18363987",
+        "latitude": 37.4785600511513,
+        "longitude": 126.884839850386,
+        "distance": null
+    },
+    {
+        "id": "7961273",
+        "name": "스타벅스 W-mall점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 디지털로 188",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/7961273",
+        "latitude": 37.4773730369712,
+        "longitude": 126.887242969792,
+        "distance": null
+    },
+    {
+        "id": "1668753802",
+        "name": "커피스미스 가디점",
+        "categoryPath": "음식점 > 카페 > 커피전문점",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산디지털1로 142",
+        "phoneNumber": "02-2067-0084",
+        "url": "http://place.map.kakao.com/1668753802",
+        "latitude": 37.4784036228448,
+        "longitude": 126.883356782493,
+        "distance": null
+    },
+    {
+        "id": "1308570212",
+        "name": "이디야커피 가산오거리점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 이디야커피",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 가산로 155",
+        "phoneNumber": "02-6406-1710",
+        "url": "http://place.map.kakao.com/1308570212",
+        "latitude": 37.4788605948938,
+        "longitude": 126.890103355677,
+        "distance": null
+    },
+    {
+        "id": "13049462",
+        "name": "스타벅스 구로하이엔드점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 스타벅스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로26길 5",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/13049462",
+        "latitude": 37.4816313144481,
+        "longitude": 126.893179103414,
+        "distance": null
+    },
+    {
+        "id": "1039862006",
+        "name": "투썸플레이스 구로대륭1차점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 투썸플레이스",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 구로구 디지털로 288",
+        "phoneNumber": "02-866-2644",
+        "url": "http://place.map.kakao.com/1039862006",
+        "latitude": 37.483792195596315,
+        "longitude": 126.89548820908001,
+        "distance": null
+    },
+    {
+        "id": "27392970",
+        "name": "빽다방 가산대륭점",
+        "categoryPath": "음식점 > 카페 > 커피전문점 > 빽다방",
+        "categoryDetailName": "커피전문점",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 벚꽃로 298",
+        "phoneNumber": "02-2083-8578",
+        "url": "http://place.map.kakao.com/27392970",
+        "latitude": 37.481223155751834,
+        "longitude": 126.88363731410163,
+        "distance": null
+    },
+    {
+        "id": "20537542",
+        "name": "티티커피클럽 가산점",
+        "categoryPath": "음식점 > 카페",
+        "categoryDetailName": "카페",
+        "categoryGroupName": "카페",
+        "address": "서울 금천구 디지털로 204",
+        "phoneNumber": "070-8152-1062",
+        "url": "http://place.map.kakao.com/20537542",
+        "latitude": 37.4785641857394,
+        "longitude": 126.889163153383,
+        "distance": null
+    },
+    {
+        "id": "929624344",
+        "name": "월래순교자관",
+        "categoryPath": "음식점 > 중식",
+        "categoryDetailName": "음식점",
+        "categoryGroupName": "음식점",
+        "address": "서울 구로구 디지털로19길 13",
+        "phoneNumber": "02-855-8488",
+        "url": "http://place.map.kakao.com/929624344",
+        "latitude": 37.480269498034474,
+        "longitude": 126.88980846740427,
+        "distance": null
+    },
+    {
+        "id": "1954563179",
+        "name": "가산물갈비&백년불고기",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 불고기,두루치기",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산디지털1로 128",
+        "phoneNumber": "02-830-8981",
+        "url": "http://place.map.kakao.com/1954563179",
+        "latitude": 37.477275859989,
+        "longitude": 126.88366152357,
+        "distance": null
+    },
+    {
+        "id": "14612436",
+        "name": "갓파스시 구로점",
+        "categoryPath": "음식점 > 일식 > 초밥,롤",
+        "categoryDetailName": "초밥,롤",
+        "categoryGroupName": "음식점",
+        "address": "서울 구로구 디지털로 288",
+        "phoneNumber": "02-864-4377",
+        "url": "http://place.map.kakao.com/14612436",
+        "latitude": 37.4837384257504,
+        "longitude": 126.895817303295,
+        "distance": null
+    },
+    {
+        "id": "26451376",
+        "name": "두껍삼 가산직영점",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 벚꽃로38길 43",
+        "phoneNumber": "1670-3592",
+        "url": "http://place.map.kakao.com/26451376",
+        "latitude": 37.48302175079223,
+        "longitude": 126.88474255169615,
+        "distance": null
+    },
+    {
+        "id": "1454070757",
+        "name": "개성손만두요리전문점 가산디지털점",
+        "categoryPath": "음식점 > 한식",
+        "categoryDetailName": "음식점",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산로9길 22",
+        "phoneNumber": "02-851-8886",
+        "url": "http://place.map.kakao.com/1454070757",
+        "latitude": 37.4768427318976,
+        "longitude": 126.8905313961,
+        "distance": null
+    },
+    {
+        "id": "25449227",
+        "name": "동대문털보네",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 삼겹살",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로9길 99",
+        "phoneNumber": "02-2649-0449",
+        "url": "http://place.map.kakao.com/25449227",
+        "latitude": 37.4820884222203,
+        "longitude": 126.884861570419,
+        "distance": null
+    },
+    {
+        "id": "12753570",
+        "name": "최우영스시",
+        "categoryPath": "음식점 > 일식 > 초밥,롤",
+        "categoryDetailName": "초밥,롤",
+        "categoryGroupName": "음식점",
+        "address": "서울 구로구 디지털로 288",
+        "phoneNumber": "02-2082-3430",
+        "url": "http://place.map.kakao.com/12753570",
+        "latitude": 37.483565151803205,
+        "longitude": 126.89549983181455,
+        "distance": null
+    },
+    {
+        "id": "1627688058",
+        "name": "김사부샤브샤브",
+        "categoryPath": "음식점 > 샤브샤브",
+        "categoryDetailName": "음식점",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산로 132",
+        "phoneNumber": "010-5811-0412",
+        "url": "http://place.map.kakao.com/1627688058",
+        "latitude": 37.4772657933344,
+        "longitude": 126.892041197824,
+        "distance": null
+    },
+    {
+        "id": "1020449161",
+        "name": "호세가",
+        "categoryPath": "음식점 > 양식 > 멕시칸,브라질",
+        "categoryDetailName": "멕시칸,브라질",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 남부순환로108길 19",
+        "phoneNumber": "070-8959-8826",
+        "url": "http://place.map.kakao.com/1020449161",
+        "latitude": 37.47792921575757,
+        "longitude": 126.89234775659247,
+        "distance": null
+    },
+    {
+        "id": "1068028751",
+        "name": "북촌삼대갈비 가산본점",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 갈비",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산로 149",
+        "phoneNumber": "02-830-0003",
+        "url": "http://place.map.kakao.com/1068028751",
+        "latitude": 37.4785148557894,
+        "longitude": 126.890370676936,
+        "distance": null
+    },
+    {
+        "id": "1923183156",
+        "name": "문정곱창",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 곱창,막창",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로12길 37",
+        "phoneNumber": "02-6014-7290",
+        "url": "http://place.map.kakao.com/1923183156",
+        "latitude": 37.47724258863432,
+        "longitude": 126.89032505226929,
+        "distance": null
+    },
+    {
+        "id": "25539883",
+        "name": "스시쥬베이",
+        "categoryPath": "음식점 > 일식",
+        "categoryDetailName": "음식점",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산로 147",
+        "phoneNumber": "02-851-2477",
+        "url": "http://place.map.kakao.com/25539883",
+        "latitude": 37.4783852280885,
+        "longitude": 126.890497490128,
+        "distance": null
+    },
+    {
+        "id": "8117410",
+        "name": "춘천옥",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 족발,보쌈",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로12길 19",
+        "phoneNumber": "02-868-9937",
+        "url": "http://place.map.kakao.com/8117410",
+        "latitude": 37.4778546951962,
+        "longitude": 126.889702348695,
+        "distance": null
+    },
+    {
+        "id": "24926523",
+        "name": "황제짬뽕양꼬치",
+        "categoryPath": "음식점 > 중식 > 중국요리",
+        "categoryDetailName": "중국요리",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로9길 32",
+        "phoneNumber": "02-2106-8530",
+        "url": "http://place.map.kakao.com/24926523",
+        "latitude": 37.4791789494722,
+        "longitude": 126.887547774579,
+        "distance": null
+    },
+    {
+        "id": "16878201",
+        "name": "니하우",
+        "categoryPath": "음식점 > 중식 > 양꼬치",
+        "categoryDetailName": "양꼬치",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 벚꽃로38길 32-43",
+        "phoneNumber": "02-858-4033",
+        "url": "http://place.map.kakao.com/16878201",
+        "latitude": 37.4825464594386,
+        "longitude": 126.885195534789,
+        "distance": null
+    },
+    {
+        "id": "19358230",
+        "name": "아웃백스테이크하우스 가산점",
+        "categoryPath": "음식점 > 패밀리레스토랑 > 아웃백스테이크하우스",
+        "categoryDetailName": "아웃백스테이크하우스",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로10길 9",
+        "phoneNumber": "02-2136-9971",
+        "url": "http://place.map.kakao.com/19358230",
+        "latitude": 37.4774862192224,
+        "longitude": 126.888780356302,
+        "distance": null
+    },
+    {
+        "id": "607305574",
+        "name": "탐나종합어시장 가산점",
+        "categoryPath": "음식점 > 한식 > 해물,생선 > 회",
+        "categoryDetailName": "해물,생선",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산로 156",
+        "phoneNumber": "02-835-7255",
+        "url": "http://place.map.kakao.com/607305574",
+        "latitude": 37.4790158999664,
+        "longitude": 126.890460391321,
+        "distance": null
+    },
+    {
+        "id": "27466069",
+        "name": "동남집 2호점",
+        "categoryPath": "음식점 > 한식 > 육류,고기",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 가산디지털1로 149",
+        "phoneNumber": "02-830-8834",
+        "url": "http://place.map.kakao.com/27466069",
+        "latitude": 37.4787405657871,
+        "longitude": 126.88151116015,
+        "distance": null
+    },
+    {
+        "id": "26893532",
+        "name": "파티엘하우스",
+        "categoryPath": "음식점 > 뷔페",
+        "categoryDetailName": "음식점",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로 173",
+        "phoneNumber": "02-865-1141",
+        "url": "http://place.map.kakao.com/26893532",
+        "latitude": 37.4779269211414,
+        "longitude": 126.88605730764,
+        "distance": null
+    },
+    {
+        "id": "1919628439",
+        "name": "휴스시",
+        "categoryPath": "음식점 > 일식 > 초밥,롤",
+        "categoryDetailName": "초밥,롤",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로9길 46",
+        "phoneNumber": "02-860-5566",
+        "url": "http://place.map.kakao.com/1919628439",
+        "latitude": 37.48000320226869,
+        "longitude": 126.88736903610919,
+        "distance": null
+    },
+    {
+        "id": "12513113",
+        "name": "맥도날드 구로디지털점",
+        "categoryPath": "음식점 > 패스트푸드 > 맥도날드",
+        "categoryDetailName": "맥도날드",
+        "categoryGroupName": "음식점",
+        "address": "서울 구로구 디지털로31길 12",
+        "phoneNumber": "070-7017-0654",
+        "url": "http://place.map.kakao.com/12513113",
+        "latitude": 37.4852189404974,
+        "longitude": 126.894978549527,
+        "distance": null
+    },
+    {
+        "id": "8608195",
+        "name": "풍년갈비",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 갈비",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로12길 33",
+        "phoneNumber": "02-867-6515",
+        "url": "http://place.map.kakao.com/8608195",
+        "latitude": 37.4773721846548,
+        "longitude": 126.890164324124,
+        "distance": null
+    },
+    {
+        "id": "1305442271",
+        "name": "동남집",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 갈비",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로9길 99",
+        "phoneNumber": "02-2027-0010",
+        "url": "http://place.map.kakao.com/1305442271",
+        "latitude": 37.4813783580952,
+        "longitude": 126.884790300618,
+        "distance": null
+    },
+    {
+        "id": "1482844022",
+        "name": "스튜디오레이크",
+        "categoryPath": "음식점 > 술집 > 와인바",
+        "categoryDetailName": "와인바",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로 210",
+        "phoneNumber": "0507-1308-9864",
+        "url": "http://place.map.kakao.com/1482844022",
+        "latitude": 37.4788673223247,
+        "longitude": 126.889587802657,
+        "distance": null
+    },
+    {
+        "id": "14547125",
+        "name": "여신족발",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 족발,보쌈",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 벚꽃로38길 21",
+        "phoneNumber": "02-865-9244",
+        "url": "http://place.map.kakao.com/14547125",
+        "latitude": 37.4822824874894,
+        "longitude": 126.884295958368,
+        "distance": null
+    },
+    {
+        "id": "918167314",
+        "name": "말뚝곱창 5호점",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 곱창,막창",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 벚꽃로38길 21",
+        "phoneNumber": "02-6249-4047",
+        "url": "http://place.map.kakao.com/918167314",
+        "latitude": 37.4822680625196,
+        "longitude": 126.884286935585,
+        "distance": null
+    },
+    {
+        "id": "845332498",
+        "name": "백년고기",
+        "categoryPath": "음식점 > 한식 > 육류,고기",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 구로구 디지털로27길 48",
+        "phoneNumber": "070-7778-8859",
+        "url": "http://place.map.kakao.com/845332498",
+        "latitude": 37.483867917469,
+        "longitude": 126.891530819838,
+        "distance": null
+    },
+    {
+        "id": "177495978",
+        "name": "로",
+        "categoryPath": "음식점 > 한식 > 육류,고기",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로9길 47",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/177495978",
+        "latitude": 37.4796351529898,
+        "longitude": 126.885973311531,
+        "distance": null
+    },
+    {
+        "id": "2062610369",
+        "name": "말뚝곱창 6호점",
+        "categoryPath": "음식점 > 한식 > 육류,고기 > 곱창,막창",
+        "categoryDetailName": "육류,고기",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 벚꽃로 316",
+        "phoneNumber": "",
+        "url": "http://place.map.kakao.com/2062610369",
+        "latitude": 37.482713432565866,
+        "longitude": 126.88273501752553,
+        "distance": null
+    },
+    {
+        "id": "26603606",
+        "name": "텐마루 가산점",
+        "categoryPath": "음식점 > 술집 > 일본식주점",
+        "categoryDetailName": "일본식주점",
+        "categoryGroupName": "음식점",
+        "address": "서울 금천구 디지털로12길 21",
+        "phoneNumber": "02-857-0199",
+        "url": "http://place.map.kakao.com/26603606",
+        "latitude": 37.4777611506697,
+        "longitude": 126.88987433137,
+        "distance": null
+    }
+]

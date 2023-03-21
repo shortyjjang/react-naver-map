@@ -1,0 +1,531 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.wrap {
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  width: 288px;
+  min-height: 132px;
+  margin-left: -124px;
+  text-align: left;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: 'Malgun Gothic', dotum, 'ë‹ì›€', sans-serif;
+  line-height: 1.5;
+}
+
+.wrap * {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap .info {
+  width: 286px;
+  height: 120px;
+  border-radius: 5px;
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+}
+
+.wrap .info:nth-child(1) {
+  border: 0;
+  box-shadow: 0px 1px 2px #888;
+}
+
+.info .title {
+  padding: 5px 0 0 10px;
+  min-height: 30px;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #888;
+  width: 17px;
+  height: 17px;
+  background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');
+}
+
+.info .close:hover {
+  cursor: pointer;
+}
+
+.info .body {
+  position: relative;
+  overflow: hidden;
+}
+
+.info .desc {
+  position: relative;
+  margin: 13px 0 0 90px;
+  height: 75px;
+}
+
+.desc .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.desc .jibun {
+  font-size: 11px;
+  color: #888;
+  margin-top: -2px;
+}
+
+.info .img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 73px;
+  height: 71px;
+  border: 1px solid #ddd;
+  color: #888;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.info:after {
+  content: '';
+  position: absolute;
+  margin-left: -12px;
+  left: 50%;
+  bottom: 0;
+  width: 22px;
+  height: 12px;
+  background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+}
+
+.info .link {
+  color: #5085BB;
+}
+
+.storearea_title:hover, .storearea_title.on {
+  opacity: 1;
+}
+
+.App {position:fixed;top:0;left:0;width:100%;height:100%;}
+
+.storearea_title {
+  transform: translateX(-50%);
+  color: #bf9466;
+  font-size: 11px;
+  font-weight: bold;
+  text-shadow: 1px 1px #fff;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+#pano, #panorama {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#panorama {
+  z-index: 1003;
+}
+
+#panorama .close {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background: #fff;
+  border: 0;
+}
+
+.buttons {
+  position: absolute;
+  top: 240px;
+  right: 10px;
+  z-index: 11;
+}
+
+.buttons .map_type button.on {
+  background: rgb(48, 84, 182);
+  color: #fff;
+}
+
+.buttons button {
+  position: relative;
+  background: #fff;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+  border: 1px solid rgba(0,0,0,.2);
+  width: 35px;
+  height: 35px;
+  text-indent: -1000em;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.buttons button:before {
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('https://ssl.pstatic.net/static/maps/v5/pc/20220531112111/home.png') no-repeat -55px -220px;
+  position: absolute;
+}
+
+.buttons #street:before {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons #street.on:before {
+  background-position: -11px -220px;
+}
+
+.buttons #current:before {
+  width: 20px;
+  height: 20px;
+  background-position: -436px -165px;
+}
+
+.buttons #current.on:before {
+  background-position: -55px -220px;
+}
+
+.buttons .map_type button {
+  text-indent: 0;
+  font-size: 11px;
+  margin: 0;
+}
+
+.buttons .map_type button+button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 0;
+}
+
+.buttons .map_type button:first-child:not(:last-child) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.store_title {
+  padding: 10px;
+  font-size: 11px;
+  color: #999;
+}
+
+.store_title b {
+  display: block;
+  padding-bottom: 4px;
+  font-size: 12px;
+  color: #333;
+}
+
+.marker-title {
+  background: #164a7d;
+  z-index: 0;
+  white-space: nowrap;
+  border-radius: 5px 5px 12px 12px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.marker-title.on {
+  background: #fe2c54;
+  z-index: 2;
+}
+
+.marker-wrapper {
+  position: relative;
+  font-size: 11px;
+  transform: translate(-50%, -50%)
+}
+
+.marker-title .price b {
+  display: block;
+  font-size: 14px;
+}
+
+.marker-title .compared {
+  line-height: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+}
+
+.marker-title .price {
+  color: #fff;
+  padding: 5px;
+}
+
+.current_marker {
+  background: url('https://ssl.pstatic.net/static/maps/v5/pc/20220531112111/marker-face.png') no-repeat -235px -90px;
+  width: 28px;
+  height: 28px;
+  margin: 0 -14px -14px 0;
+}
+
+#chart-sales {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  z-index: 1111111111;
+}
+
+.ranking {
+  position: absolute;
+  z-index: 1;
+  left: 100%;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  top: 0;
+  transform: translateY(-50%);
+  transition: 0.22s;
+  width: 300px;
+  font-size: 11px;
+  color: #fff;
+}
+
+div[style="margin: 0px; padding: 0px; width: 0px; height: 0px; position: absolute; border-width: 24px 10px 0px; border-style: solid; border-color: rgb(255, 255, 255) transparent transparent; border-image: initial; pointer-events: none; box-sizing: content-box !important; bottom: -22px; left: 62px;"],div[style="margin: 0px; padding: 0px; width: 0px; height: 0px; position: absolute; border-width: 24px 10px 0px; border-style: solid; border-color: rgb(51, 51, 51) transparent transparent; border-image: initial; pointer-events: none; box-sizing: content-box !important; bottom: -25px; left: 62px;"],div[style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 1px solid rgb(51, 51, 51); display: block; cursor: default; box-sizing: content-box !important; background: rgb(255, 255, 255);"] {
+  border: 0 !important;
+  background: none !important;
+}
+
+div[style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 1px solid rgb(51, 51, 51); display: block; cursor: default; box-sizing: content-box !important; background: rgb(255, 255, 255);"] > div:nth-child(2), div[style="position: absolute; top: 0px; left: 0px; z-index: 0; margin: 0px; padding: 0px; border: 1px solid rgb(51, 51, 51); display: block; cursor: default; box-sizing: content-box !important; background: rgb(255, 255, 255);"] > div:nth-child(3) {
+  display: none !important;
+}
+
+.ranking th, .ranking td:first-child {
+  text-align: center;
+  padding: 5px;
+}
+
+.ranking td {
+  border-top: 1px solid #666;
+}
+
+.ranking td:last-child {
+  text-align: right;
+}
+
+.ranking table {
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+}
+
+#search > button {
+  background: #0475f4;
+  color: #fff;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 15px 0;
+  width: calc(100% - 30px);
+}
+
+#search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+  background: #fff;
+}
+
+#search dt {
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+#search dl {
+  margin: 15px 15px 0;
+}
+
+#search dl input {
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#search dl input, #search dl select, #search dl button {
+  font-size: 12px;
+  border: 1px solid #eee;
+  background: none;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 4px;
+  color: #999;
+  margin-top: 5px;
+}
+
+#search > input {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin: 10px 10px 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  font-weight: 500;
+}
+
+#sidebar.on, #sidebar.on h1 {
+  left: 0;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -350px;
+  transition: 0.22s;
+  width: 350px;
+  height: 100%;
+  background: #fff;
+  z-index: 3000;
+  box-shadow: 0 1px 4px 0 rgba(0 0 0 / 10%);
+  color: #666;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-top: 51px;
+}
+
+#sidebar h1 {
+  position: fixed;
+  top: 0;
+  left: -350px;
+  transition: 0.22s;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #fe2c54;
+  margin: 0;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+#sidebar dl {
+  padding: 25px 20px;
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+
+#sidebar dt {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+#sidebar .dong_avg b {
+  display: block;
+  font-size: 28px;
+  color: #fe2c54;
+  padding-top: 5px;
+}
+
+#sidebar .dong_avg > div {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+#sidebar .dong_avg {
+  display: flex;
+  font-size: 12px;
+}
+
+#sidebar table {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+#sidebar th {
+  font-size: 12px;
+  padding: 5px;
+}
+
+#sidebar td {
+  border-top: 1px solid #eee;
+  padding: 7px 10px;
+  font-size: 13px;
+}
+
+#sidebar .price tr:first-child td {
+  background: #fff7f3;
+}
+
+#sidebar td:first-child {
+  text-align: center;
+}
+
+#sidebar td:last-child {
+  text-align: right;
+}
+
+#sidebar .avg_chart b {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+#sidebar .avg_chart div:nth-child(2) {
+  color: #fe2c54;
+}
+
+#sidebar .avg_chart div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+#sidebar .avg_chart {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 720px) {
+  #sidebar h1 {
+      top:40%;
+      width: 100%;
+      left: -100%;
+  }
+
+  #sidebar {
+      top: 40%;
+      height: 60vh;
+      width: 100%;
+      left: -100%;
+  }
+}

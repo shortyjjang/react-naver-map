@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>간단한 지도 표시하기</title>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hsjky7738l&amp;submodules=panorama"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./map.css?0.296" charset="utf-8">
+</head>
+<body style="margin:0;">
+<div id="map" style="width:100%;height:100vh;">
+    <div class="buttons">
+        <div class="map_type" id="maptype">
+            <button onclick="showMapType('NORMAL')" id="maptype_NORMAL" class="on">일반</button>
+            <button onclick="showMapType('SATELLITE')" id="maptype_SATELLITE">위성</button>
+            <!-- <button onclick="showMapType('TRAFFIC')" id="maptype_TRAFFIC">교통</button> -->
+        </div>
+        <button id="street" onclick="showStreetMap()">거리뷰</button>
+        <button id="current" onclick="getMyPosition()">현재위치표시</button>
+    </div>
+</div>
+<div id="panorama" style="display:none">
+    <div id="pano"></div>
+    <button class="close" onclick="closePanorama()">닫기</button>
+</div>
+<div id="sidebar"></div>
+<script defer>
+    CanvasJS.addColorSet("customColor", ['#fff7f3', '#fde0dd', '#fcc5c0', '#fa9fb5', '#f768a1', '#dd3497', '#ae017e', '#7a0177', '#49006a']);
+    class CustomOverlay extends naver.maps.OverlayView {
+        constructor(e, { position, map }) {
+            super();
+            
+            this.element = e;
+            this.chartData = null;
+            this.position = position;
+            this.map = map || null;
+            
+            this.onAdd = this.onAdd.bind(this);
+            this.draw = this.draw.bind(this);
+            this.onRemove = this.onRemove.bind(this);
+        }
+        
+        onAdd() {
+            const overlayLayer = this.getPanes().overlayLayer;
+            overlayLayer.appendChild(this.element);
+            this.draw();
+        }
+        
+        draw() {
+            if (!this.getMap()) {
+                return;
+            }
+            
+            const projection = this.getProjection();
+            const pixelPosition = projection.fromCoordToOffset(this.position);
+            
+            this.element.style.left = `${pixelPosition.x}px`;
+            this.element.style.top = `${pixelPosition.y}px`;
+            
+            if (this.chartData) {
+                const chartOption = {
+                    backgroundColor: 'transparent',
+                    animationEnabled: true,
+                    animationDuration: 500,
+                    exportEnabled: false,
+                    theme: 'light2',
+                    colorSet: 'customColor',
+                    data: [{
+                        type: 'doughnut',
+                        toolTipContent: '<b>{label}</b><br/> {amount}만원({y}%)',
+                        indexLabelFontColor: '#000',
+                        indexLabelFontSize: 11,
+                        indexLabelTextAlign: 'center',
+                        indexLabel: '{label}({y}%)',
+                        indexLabelPlacement: 'inside',
+                        dataPoints: this.chartData,
+                    }],
+                };
+                
+                const donutChart = new CanvasJS.Chart(this.element.id, chartOption);
+                donutChart.render();
+            }
+        }
+        
+        onRemove() {
+            this.element.parentElement.removeChild(this.element);
+        }
+        
+        setPosition(position) {
+            this.position = position;
+            this.draw();
+        }
+        
+        getPosition() {
+            return this.position;
+        }
+        
+        setChartData(data) {
+            this.chartData = data;
+            this.draw();
+        }
+    }
+    let circles = [], markers = [], defaultSize = 15
+    const mapCenter = new naver.maps.LatLng(37.4950926, 126.8622169),
+        map = new naver.maps.Map(document.getElementById('map'), {
+            zoom: defaultSize,
+            mapTypeId: naver.maps.MapTypeId.NORMAL,
+            center: mapCenter,
+            zoomControl: true, //줌 컨트롤의 표시 여부
+            zoomControlOptions: { //줌 컨트롤의 옵션
+                position: naver.maps.Position.TOP_RIGHT
+            },
+        }),
+        streetLayer = new naver.maps.StreetLayer(),
+        pano = new naver.maps.Panorama("pano", {
+            position: mapCenter,
+            pov: {
+                pan: -133,
+                tilt: 0,
+                fov: 100
+            }
+        })
+
+     const num_format = (num) => {
+        return new Intl.NumberFormat().format(parseInt(num));
+    }
+    let donutChart = null;
+
+
+
+
+    
+    //거리뷰표시
+    const showStreetMap = () => {
+        if (streetLayer.getMap()) {
+            streetLayer.setMap(null);
+            document.getElementById('street').classList = ''
+        } else {
+            streetLayer.setMap(map);
+            document.getElementById('street').classList = 'on'
+        }
+    }
+    //사진뷰표시
+    const closePanorama = () => document.getElementById('panorama').style.display = 'none'
+    //지도 유형별 선택하기(일반지도, 위성지도)
+    const showMapType = (type) => {
+        if (map.getMapTypeId() !== naver.maps.MapTypeId[type]) {
+            for(let i=0;i<document.getElementById('maptype').getElementsByTagName('button').length;i++) {
+                document.getElementById('maptype').getElementsByTagName('button')[i].classList = ''
+            }
+            map.setMapTypeId(naver.maps.MapTypeId[type]); // 지도 유형 변경하기
+            document.getElementById(`maptype_${type}`).classList = 'on';
+        }
+    }
+
+    //상권표시
+    //상권불러오기
+    const loadPolygon = () => {
+        fetch('/storearea.json?0.11')
+            .then(res => res.json())
+            .then(coordinates => {
+                for (const storearea of coordinates) {
+                    const storeareas = storearea.coordsarea.map(path => new naver.maps.LatLng(path[1], path[0]));
+                    const title = new naver.maps.Marker({
+                    map,
+                    position: new naver.maps.LatLng(storearea.center[1], storearea.center[0]),
+                    icon: {
+                        content: `<div class="storearea_title on">${storearea.title}</div>`,
+                    }
+                    });
+                    const polygon = new naver.maps.Polygon({
+                    map,
+                    paths: storeareas,
+                    fillColor: '#f8d39a',
+                    fillOpacity: 0.2,
+                    strokeColor: '#f8d39a',
+                    strokeOpacity: 1,
+                    strokeWeight: 1,
+                    clickable: true,
+                    });
+
+                    naver.maps.Event.addListener(title, 'mouseover', () => polygon.setOptions({fillOpacity: 0.3}));
+                    naver.maps.Event.addListener(polygon, 'mouseout', () => polygon.setOptions({fillOpacity: 0.2}));
+                }
+            });
+        }
+
+
+    //업종별 Top5차트 그리기 
+    //동별 매출 불러오기
+    const loadLocation = async () => {
+        try {
+            const response = await fetch('/location.json?0.2');
+            const coordinates = await response.json();
+            const dongs = [];
+
+            coordinates.forEach((dong) => {
+                const chartData = [];
+                let ranking_contents = '';
+                const detail = dong.real_property[0];
+
+                dong.detail.forEach((de) => {
+                    ranking_contents += `
+                    <tr>
+                        <td>${de.key}</td>
+                        <td>${num_format(de.amount)}만원(${de.per_value}%)</td>
+                    </tr>
+                    `;
+                    chartData.push({ y: de.per_value, amount: de.amount, label: de.key });
+                });
+
+                const locationSales = `
+                    <div class="price">
+                    <b>${dong.title}</b>
+                    </div>
+                    <div class="compared">${num_format(dong.month_avg_amount)}만원</div>
+                `;
+
+                const dong_detail_contents = `
+                    <h1>${dong.title}</h1>
+                    <div class="dong_avg">
+                    <div class="avg_people">일평균 유동인구 <b>${num_format(dong.day_moving_people)}명</b></div>
+                    <div class="avg_sales">월평균 매출 <b>${num_format(dong.month_avg_amount)}만원</b></div>
+                    </div>
+                    <dl>
+                    <dt>업종별 매출 순위</dt>
+                    <dd>
+                        <table class="price">
+                        <thead>
+                            <tr>
+                            <th>업종</th>
+                            <th>매출(분포도)</th>
+                            </tr>
+                        </thead>
+                        <tbody>${ranking_contents}</tbody>
+                        </table>
+                    </dd>
+                    </dl>
+                    <dl>
+                    <dt>매물 평수별 현황</dt>
+                    <dd>
+                        <table>
+                        <thead>
+                            <tr>
+                            <th>평형</th>
+                            <th>매물수</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>10평 이하</td> <td>${detail.py_10_under}개</td></tr>
+                            <tr><td>20평 이하</td> <td>${detail.py_20_under}개</td></tr>
+                            <tr><td>30평 이하</td> <td>${detail.py_30_under}개</td></tr>
+                            <tr><td>40평 이하</td> <td>${detail.py_40_under}개</td></tr>
+                            <tr><td>50평 이하</td> <td>${detail.py_50_under}개</td></tr>
+                            <tr><td>50평 이상</td> <td>${detail.py_50_over}개</td></tr>
+                        </tbody>
+                        </table>
+                    </dd>
+                    </dl>
+                    <dl>
+                    <dt>평균 전용 면적</dt>
+                    <dd class="avg_chart">
+                        <div class="min"><label>최소</label><b>${detail.min_size}/㎡<small>(${detail.min_size_py}평)</small></b></div>
+                        <div class="avg"><label>평균</label><b>${detail.avg_size}/㎡<small>(${detail.avg_size_py}평)</small></b></div>
+                        <div class="min"><label>최대</label><b>${detail.max_size}/㎡<small>(${detail.max_size_py}평)</small></b></div>
+                    </dd>
+                    </dl>
+                    <dl>
+                    <dt>평균 임대 보증금</dt>
+                    <dd class="avg_chart">
+                        <div class="min"><label>최소</label><b>${num_format(detail.min_premium)}만원</b></div>
+                        <div class="avg"><label>평균</label><b>${num_format(detail.avg_premium)}만원</b></div>
+                        <div class="min"><label>최대</label><b>${num_format(detail.max_premium)}만원</b></div>
+                    </dd>
+                    </dl>
+                    <dl>
+                    <dt>평균 임대 월세</dt>
+                    <dd class="avg_chart">
+                        <div class="min"><label>최소</label><b>${num_format(detail.min_rent_price)}만원</b></div>
+                        <div class="avg"><label>평균</label><b>${num_format(detail.avg_rent_price)}만원</b></div>
+                        <div class="min"><label>최대</label><b>${num_format(detail.max_rent_price)}만원</b></div>
+                    </dd>
+                    </dl>
+                    <dl>
+                    <dt>평균 권리금</dt>
+                    <dd class="avg_chart">
+                        <div class="min"><label>최소</label><b>${num_format(detail.min_deposit)}만원</b></div>
+                        <div class="avg"><label>평균</label><b>${num_format(detail.avg_deposit)}만원</b></div>
+                        <div class="min"><label>최대</label><b>${num_format(detail.max_deposit)}만원</b></div>
+                    </dd>
+                    </dl>
+                `;
+
+                const saleMarker = new naver.maps.Marker({
+                    map,
+                    position: new naver.maps.LatLng(dong.location[1],dong.location[0]),
+                    icon: {
+                    content: `<div class="marker-title">${locationSales}</div>`,
+                    }
+                });
+
+                dongs.push(saleMarker);
+
+                naver.maps.Event.addListener(saleMarker, 'click', () => {
+                    const icon = saleMarker.getIcon();
+                    const isMe = icon.content.indexOf('on') > -1;
+
+                    if (document.getElementById('sidebar').classList.value === 'on') {
+                        dongs.forEach((othersaleMarker) => {
+                            const icons = othersaleMarker.getIcon();
+                            icons.content = icons.content.replace("marker-title on","marker-title");
+                            othersaleMarker.setIcon(icons);
+                        });
+                    }
+
+                    if (!!document.getElementById('chart-sales')) {
+                        document.getElementById('chart-sales').remove();
+                        donutChart = null;
+                    }
+
+                    if (!isMe) {
+                        icon.content = icon.content.replace("marker-title","marker-title on");
+                        saleMarker.setIcon(icon);
+
+                        donutChart = new CustomOverlay(chartData, {
+                            position: new naver.maps.LatLng(dong.location[1],dong.location[0]),
+                            map
+                        });
+
+                        document.getElementById('sidebar').innerHTML = dong_detail_contents;
+                        document.getElementById('sidebar').classList = 'on';
+                    } else {
+                        document.getElementById('sidebar').classList = '';
+                    }
+                });
+            }); // end of forEach
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    };
+    //상점리스트 불러오기
+    const loadStore = async () => {
+        const storeType = (name) => {
+            switch(name) {
+                case '음식점':
+                return [0, -235]
+                case '술집':
+                return [-235, 150]
+                default:
+                    return [0, -35]
+            }
+        }
+        try {
+            const res = await fetch('/stores.json');
+            const coordinates = await res.json();
+            coordinates.forEach(store => {
+            let point = storeType(store.categoryGroupName)
+            const storeMarker = new naver.maps.Marker({
+                map,
+                position: new naver.maps.LatLng(store.latitude, store.longitude),
+                icon: {
+                    url: '/marker-face.png', 
+                    size: new naver.maps.Size(30, 30),
+                    scaledSize: new naver.maps.Size(263, 263),
+                    anchor: new naver.maps.Point(point[0], point[1])
+                },
+            });
+            
+            const infowindow = new naver.maps.InfoWindow({
+                content: `<div class="store_title"><b>${store.name}</b> ${store.categoryPath}</div>`,
+                maxWidth: 240,
+                backgroundColor: '#fff',
+                borderColor: '#eee',
+                borderWidth: 1,
+                anchorSize: new naver.maps.Size(0, 0),
+                pixelOffset: new naver.maps.Point(0, -10) // 조정
+            });
+            
+            naver.maps.Event.addListener(storeMarker, 'mouseover', () => infowindow.open(map, storeMarker));
+            naver.maps.Event.addListener(storeMarker, 'mouseout', () => {
+                if (infowindow.getMap()) infowindow.close();
+            });
+            });
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    naver.maps.Event.once(map, 'init', streetLayer.setMap(map));
+    //거리뷰일때 사진보기
+    naver.maps.Event.addListener(map, 'click', (e) => {
+        if (streetLayer.getMap()) {
+            var latlng = e.coord, newSize = map.getSize();
+            pano.setPosition(latlng);
+            pano.setSize(newSize.clone())
+            document.getElementById('panorama').style.display = 'block'
+        }
+    });
+    // 파노라마 위치가 갱신되었을 때 발생하는 이벤트를 받아 지도의 중심 위치를 갱신합니다.
+    naver.maps.Event.addListener(pano, 'pano_changed', () => {
+        var latlng = pano.getPosition();
+        if (!latlng.equals(map.getCenter())) map.setCenter(latlng);
+    });
+    naver.maps.Event.addListener(map,'zoom_changed',() => defaultSize = map.getZoom())
+
+    //현재위치표시
+    function getMyPosition() {
+        const options = {
+            enableHighAccuracy: true,
+            timeout: 5000,
+            maximumAge: 0
+        };
+
+        const success = (pos, map) => {
+            const currentMarker = new naver.maps.Marker({
+                map: map,
+                position: new naver.maps.LatLng(pos.coords.latitude, pos.coords.longitude),
+                icon: {
+                    content: `<div class="current_marker"></div>`,
+                }
+            });
+        };
+
+        const error = (err) => {
+            console.warn('ERROR(' + err.code + '): ' + err.message);
+        };
+
+        const elements = document.getElementsByClassName('current_marker');
+        while (elements.length > 0) {
+            elements[0].parentNode.removeChild(elements[0]);
+        }
+
+        navigator.geolocation.getCurrentPosition(pos => success(pos, map), error, options);
+    }
+    
+    loadStore()
+    loadPolygon()
+    loadLocation()
+    showStreetMap()
+    closePanorama()
+</script>
+</body>
+</html>
