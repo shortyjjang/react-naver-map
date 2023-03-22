@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./map.css?0.296" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/index.css" charset="utf-8">
 </head>
 <body style="margin:0;">
 <div id="map" style="width:100%;height:100vh;">
@@ -33,80 +33,6 @@
 <div id="sidebar"></div>
 <script defer>
     CanvasJS.addColorSet("customColor", ['#fff7f3', '#fde0dd', '#fcc5c0', '#fa9fb5', '#f768a1', '#dd3497', '#ae017e', '#7a0177', '#49006a']);
-    class CustomOverlay extends naver.maps.OverlayView {
-        constructor(e, { position, map }) {
-            super();
-            
-            this.element = e;
-            this.chartData = null;
-            this.position = position;
-            this.map = map || null;
-            
-            this.onAdd = this.onAdd.bind(this);
-            this.draw = this.draw.bind(this);
-            this.onRemove = this.onRemove.bind(this);
-        }
-        
-        onAdd() {
-            const overlayLayer = this.getPanes().overlayLayer;
-            overlayLayer.appendChild(this.element);
-            this.draw();
-        }
-        
-        draw() {
-            if (!this.getMap()) {
-                return;
-            }
-            
-            const projection = this.getProjection();
-            const pixelPosition = projection.fromCoordToOffset(this.position);
-            
-            this.element.style.left = `${pixelPosition.x}px`;
-            this.element.style.top = `${pixelPosition.y}px`;
-            
-            if (this.chartData) {
-                const chartOption = {
-                    backgroundColor: 'transparent',
-                    animationEnabled: true,
-                    animationDuration: 500,
-                    exportEnabled: false,
-                    theme: 'light2',
-                    colorSet: 'customColor',
-                    data: [{
-                        type: 'doughnut',
-                        toolTipContent: '<b>{label}</b><br/> {amount}만원({y}%)',
-                        indexLabelFontColor: '#000',
-                        indexLabelFontSize: 11,
-                        indexLabelTextAlign: 'center',
-                        indexLabel: '{label}({y}%)',
-                        indexLabelPlacement: 'inside',
-                        dataPoints: this.chartData,
-                    }],
-                };
-                
-                const donutChart = new CanvasJS.Chart(this.element.id, chartOption);
-                donutChart.render();
-            }
-        }
-        
-        onRemove() {
-            this.element.parentElement.removeChild(this.element);
-        }
-        
-        setPosition(position) {
-            this.position = position;
-            this.draw();
-        }
-        
-        getPosition() {
-            return this.position;
-        }
-        
-        setChartData(data) {
-            this.chartData = data;
-            this.draw();
-        }
-    }
     let circles = [], markers = [], defaultSize = 15
     const mapCenter = new naver.maps.LatLng(37.4950926, 126.8622169),
         map = new naver.maps.Map(document.getElementById('map'), {
@@ -127,11 +53,76 @@
                 fov: 100
             }
         })
+        const naverOverlay = new naver.maps.OverlayView()
+        const num_format = (num) => {
+            return new Intl.NumberFormat().format(parseInt(num));
+        }
+        let donutChart = null;
+        class CustomOverlay extends naver.maps.OverlayView {
+            constructor(chartData, options) {
+                super();
+                const chartDiv = document.createElement('div');
+                chartDiv.setAttribute('id', 'chart-sales');
+                this._element = chartDiv;
+                this.chartData = chartData;
+                this.position = options.position;
+                this.setMap(options.map || null);
+            }
 
-     const num_format = (num) => {
-        return new Intl.NumberFormat().format(parseInt(num));
-    }
-    let donutChart = null;
+            onAdd() {
+                const overlayLayer = this.getPanes().floatPane;
+                overlayLayer.appendChild(this._element);
+                console.log(this.position)
+            }
+
+            draw() {
+                if (!this.getMap()) {
+                    return;
+                }
+
+                const projection = this.getProjection();
+                const pixelPosition = projection.fromCoordToOffset(this.position);
+
+                this._element.style.left = pixelPosition.x + 'px';
+                this._element.style.top = pixelPosition.y + 'px';
+                const drawChartOption = {
+                    backgroundColor: 'transparent',
+                    animationEnabled: true,
+                    animationDuration: 500,
+                    exportEnabled: false,
+                    theme: 'light2',
+                    colorSet: 'customColor',
+                    axisY: {
+                        title: '매출 (만원)',
+                        labelFormatter: (e) => e.value + '만원'
+                    },
+                    data: [{
+                        type: 'doughnut',
+                        dataPoints: this.chartData.map(item => ({
+                            label: item.label,
+                            y: item.amount
+                        })),
+                    }]
+                };
+
+                
+                const drawChart = new CanvasJS.Chart('chart-sales', drawChartOption);
+                drawChart.render();
+            }
+
+            onRemove() {
+                this._element.parentElement.removeChild(this._element);
+            }
+
+            setPosition(position) {
+                this.position = position;
+                this.draw();
+            }
+
+            getPosition() {
+                return this.position;
+            }
+        }
 
 
 
@@ -152,8 +143,8 @@
     //지도 유형별 선택하기(일반지도, 위성지도)
     const showMapType = (type) => {
         if (map.getMapTypeId() !== naver.maps.MapTypeId[type]) {
-            for(let i=0;i<document.getElementById('maptype').getElementsByTagName('button').length;i++) {
-                document.getElementById('maptype').getElementsByTagName('button')[i].classList = ''
+            for(const element of document.getElementById('maptype').getElementsByTagName('button')) {
+                element.classList = ''
             }
             map.setMapTypeId(naver.maps.MapTypeId[type]); // 지도 유형 변경하기
             document.getElementById(`maptype_${type}`).classList = 'on';
@@ -169,21 +160,21 @@
                 for (const storearea of coordinates) {
                     const storeareas = storearea.coordsarea.map(path => new naver.maps.LatLng(path[1], path[0]));
                     const title = new naver.maps.Marker({
-                    map,
-                    position: new naver.maps.LatLng(storearea.center[1], storearea.center[0]),
-                    icon: {
-                        content: `<div class="storearea_title on">${storearea.title}</div>`,
-                    }
+                        map,
+                        position: new naver.maps.LatLng(storearea.center[1], storearea.center[0]),
+                        icon: {
+                            content: `<div class="storearea_title on">${storearea.title}</div>`,
+                        }
                     });
                     const polygon = new naver.maps.Polygon({
-                    map,
-                    paths: storeareas,
-                    fillColor: '#f8d39a',
-                    fillOpacity: 0.2,
-                    strokeColor: '#f8d39a',
-                    strokeOpacity: 1,
-                    strokeWeight: 1,
-                    clickable: true,
+                        map,
+                        paths: storeareas,
+                        fillColor: '#f8d39a',
+                        fillOpacity: 0.2,
+                        strokeColor: '#f8d39a',
+                        strokeOpacity: 1,
+                        strokeWeight: 1,
+                        clickable: true,
                     });
 
                     naver.maps.Event.addListener(title, 'mouseover', () => polygon.setOptions({fillOpacity: 0.3}));
@@ -195,6 +186,55 @@
 
     //업종별 Top5차트 그리기 
     //동별 매출 불러오기
+    const loadStore = async () => {
+        const storeType = (name) => {
+            switch(name) {
+                case '음식점':
+                return [0, 235]
+                case '술집':
+                return [235, 150]
+                default:
+                    return [0, 35]
+            }
+        }
+        try {
+            //상점리스트 불러오기
+            const res = await fetch('/stores.json');
+            const coordinates = await res.json();
+
+            //상점 아이콘 표시
+            coordinates.forEach(store => {
+                let point = storeType(store.categoryGroupName)
+                const storeMarker = new naver.maps.Marker({
+                    map,
+                    position: new naver.maps.LatLng(store.latitude, store.longitude),
+                    icon: {
+                        url: '/marker-face.png', 
+                        size: new naver.maps.Size(30, 30),
+                        anchor: new naver.maps.Point(0, 0),
+                        origin: new naver.maps.Point(point[0], point[1])
+                    },
+                });
+                
+                const infowindow = new naver.maps.InfoWindow({
+                    content: `<div class="store_title"><b>${store.name}</b> ${store.categoryPath}</div>`,
+                    maxWidth: 240,
+                    backgroundColor: '#fff',
+                    borderColor: '#eee',
+                    borderWidth: 1,
+                    anchorSize: new naver.maps.Size(0, 0),
+                    pixelOffset: new naver.maps.Point(0, -10) // 조정
+                });
+                
+                naver.maps.Event.addListener(storeMarker, 'mouseover', () => infowindow.open(map, storeMarker));
+                naver.maps.Event.addListener(storeMarker, 'mouseout', () => {
+                    if (infowindow.getMap()) infowindow.close();
+                });
+            });
+        } catch (error) {
+            console.error(error);
+        }
+    };
     const loadLocation = async () => {
         try {
             const response = await fetch('/location.json?0.2');
@@ -310,9 +350,9 @@
 
                 naver.maps.Event.addListener(saleMarker, 'click', () => {
                     const icon = saleMarker.getIcon();
-                    const isMe = icon.content.indexOf('on') > -1;
-
+                    
                     if (document.getElementById('sidebar').classList.value === 'on') {
+                        document.getElementById('chart-sales')?.remove()
                         dongs.forEach((othersaleMarker) => {
                             const icons = othersaleMarker.getIcon();
                             icons.content = icons.content.replace("marker-title on","marker-title");
@@ -320,79 +360,24 @@
                         });
                     }
 
-                    if (!!document.getElementById('chart-sales')) {
-                        document.getElementById('chart-sales').remove();
-                        donutChart = null;
-                    }
+                    icon.content = icon.content.replace("marker-title","marker-title on");
+                    saleMarker.setIcon(icon);
+                    console.log(saleMarker.position.x)
 
-                    if (!isMe) {
-                        icon.content = icon.content.replace("marker-title","marker-title on");
-                        saleMarker.setIcon(icon);
 
-                        donutChart = new CustomOverlay(chartData, {
-                            position: new naver.maps.LatLng(dong.location[1],dong.location[0]),
-                            map
-                        });
-
-                        document.getElementById('sidebar').innerHTML = dong_detail_contents;
-                        document.getElementById('sidebar').classList = 'on';
-                    } else {
-                        document.getElementById('sidebar').classList = '';
-                    }
+                    document.getElementById('sidebar').classList.add('on')
+                    document.getElementById('sidebar').innerHTML = dong_detail_contents;
+                    const newChart = new CustomOverlay(chartData, {
+                        position: new naver.maps.LatLng(saleMarker.position.y,saleMarker.position.x),
+                        map: map,
+                    });
                 });
             }); // end of forEach
         } catch (error) {
             console.error('Error:', error.message);
         }
     };
-    //상점리스트 불러오기
-    const loadStore = async () => {
-        const storeType = (name) => {
-            switch(name) {
-                case '음식점':
-                return [0, -235]
-                case '술집':
-                return [-235, 150]
-                default:
-                    return [0, -35]
-            }
-        }
-        try {
-            const res = await fetch('/stores.json');
-            const coordinates = await res.json();
-            coordinates.forEach(store => {
-            let point = storeType(store.categoryGroupName)
-            const storeMarker = new naver.maps.Marker({
-                map,
-                position: new naver.maps.LatLng(store.latitude, store.longitude),
-                icon: {
-                    url: '/marker-face.png', 
-                    size: new naver.maps.Size(30, 30),
-                    scaledSize: new naver.maps.Size(263, 263),
-                    anchor: new naver.maps.Point(point[0], point[1])
-                },
-            });
-            
-            const infowindow = new naver.maps.InfoWindow({
-                content: `<div class="store_title"><b>${store.name}</b> ${store.categoryPath}</div>`,
-                maxWidth: 240,
-                backgroundColor: '#fff',
-                borderColor: '#eee',
-                borderWidth: 1,
-                anchorSize: new naver.maps.Size(0, 0),
-                pixelOffset: new naver.maps.Point(0, -10) // 조정
-            });
-            
-            naver.maps.Event.addListener(storeMarker, 'mouseover', () => infowindow.open(map, storeMarker));
-            naver.maps.Event.addListener(storeMarker, 'mouseout', () => {
-                if (infowindow.getMap()) infowindow.close();
-            });
-            });
-        } catch (error) {
-            console.error(error);
-        }
-    };
-
+    
     naver.maps.Event.once(map, 'init', streetLayer.setMap(map));
     //거리뷰일때 사진보기
     naver.maps.Event.addListener(map, 'click', (e) => {
